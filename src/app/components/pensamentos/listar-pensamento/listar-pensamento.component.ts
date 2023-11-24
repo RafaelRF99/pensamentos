@@ -17,5 +17,11 @@ export class ListarPensamentoComponent {
       autoria: 'Sou componente Filho',
       modelo: 'modelo2',
     },
+    {
+      conteudo:
+        'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias praesentium porro, ducimus veniam asperiores tempora rerum quaerat atque sit? Ullam voluptatibus tempore aliquam nihil soluta! Tempora voluptates nostrum sint quas?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias praesentium porro, ducimus veniam asperiores tempora rerum quaerat atque sit? Ullam voluptatibus tempore aliquam nihil soluta! Tempora voluptates nostrum sint quas?',
+      autoria: 'Angular',
+      modelo: 'modelo1',
+    },
   ];
 }

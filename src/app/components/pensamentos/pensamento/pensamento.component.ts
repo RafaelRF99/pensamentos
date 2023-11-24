@@ -11,4 +11,12 @@ export class PensamentoComponent {
     autoria: '',
     modelo: '',
   };
+
+  larguraPensamento(): string {
+    if (this.pensamento.conteudo.length >= 256) {
+      return 'pensamento-g';
+    } else {
+      return 'pensamento-p';
+    }
+  }
 }
