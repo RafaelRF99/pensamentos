@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-criar-pensamento',
@@ -13,11 +14,14 @@ export class CriarPensamentoComponent {
     modelo: 'modelo1',
   };
 
+  constructor(private router: Router) {}
+
   criarPensamento() {
     alert('Novo pensamento criado!');
   }
 
   cancelar() {
     console.log('Ação cancelada!');
+    this.router.navigate(['/listarPensamento']);
   }
 }
