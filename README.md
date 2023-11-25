@@ -8,6 +8,9 @@ Desenvolvido com objetivo de aprender e melhorar o conhecimento em CRUD e integr
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+cd backend
+Run `npm start` for a BackEnd
+
 ## Etapas para criar JSON-SERVE
 
 npm init -y
