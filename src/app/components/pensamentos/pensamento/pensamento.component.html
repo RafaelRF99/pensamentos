@@ -9,11 +9,15 @@
   </p>
   <div class="acoes">
     <button class="botao-editar">
-      <img src="assets/imgs/icone-editar.png" alt="Icone editar" />
+      <img
+        src="assets/imgs/icone-editar.png"
+        alt="Icone editar"
+        routerLink="/pensamentos/editarPensamento/{{ pensamento.id }}"
+      />
     </button>
     <button
       class="botao-excluir"
-      routerLink="/pensamentos/excluirPensamentos/{{ pensamento.id }}"
+      routerLink="/pensamentos/excluirPensamento/{{ pensamento.id }}"
     >
       <img src="assets/imgs/icone-excluir.png" alt="Icone excluir" />
     </button>
